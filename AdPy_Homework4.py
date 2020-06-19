@@ -32,6 +32,7 @@ def logger (final_file):
             for elems in result:
                 file.write(str(elems)+'\n')
             file.close()
+            return file
         return new_function
     return parametric_decorator
 
